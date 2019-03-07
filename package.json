@@ -1,7 +1,7 @@
 {
-  "name": "jquery-sortable",
+  "name": "reflektive-jquery-sortable",
   "version": "0.9.13",
-  "description": "jquery plugin for sortable, nestable lists",
+  "description": "jquery plugin for sortable, nestable lists, with corrected dependencies",
   "main": "./source/js/jquery-sortable.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,8 @@
     "dragging"
   ],
   "author": [
-    "Jonas von Andrian"
+    "Jonas von Andrian",
+    "Eric Wooley"
   ],
   "license": "BSD-3",
   "bugs": {
@@ -26,6 +27,6 @@
   },
   "homepage": "https://github.com/johnny/jquery-sortable",
   "dependencies": {
-    "jquery": "^2.1.2 || ^3.0.0"
+    "jquery": ">=2.1.2 || >=3.0.0"
   }
 }

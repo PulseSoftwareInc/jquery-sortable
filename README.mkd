@@ -1,3 +1,7 @@
+# Reflektive forked jquery-sortable
+Yarn doesn't handle the incorrect depency tree that this package specifies.
+
+see https://github.com/johnny/jquery-sortable/issues/262
 # jQuery Sortable
 
 jQuery Sortable is a flexible, opinionated sorting plugin.
